@@ -1,1 +1,1 @@
-# shell-strings
+[View on GitHub](docs/NoRWX.md)
