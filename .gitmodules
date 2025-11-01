@@ -1,0 +1,3 @@
+[submodule "content/NoRWX"]
+	path = content/NoRWX
+	url = https://github.com/mrzaxaryan/NoRWX.git
