@@ -1,3 +1,6 @@
 [submodule "content/NoRWX"]
 	path = content/NoRWX
 	url = https://github.com/mrzaxaryan/NoRWX.git
+[submodule "content/PIS"]
+	path = content/PIS
+	url = https://github.com/mrzaxaryan/PIS.git
