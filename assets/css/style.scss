@@ -3,6 +3,64 @@
 
 @import "{{ site.theme }}";
 
+/* Hide the default GitHub downloads section */
 #downloads {
   display: none;
+}
+
+/* === Sticky footer layout === */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* === Footer styling === */
+footer {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  color: #00ff00;
+  font-family: monospace;
+  background: #0a0a0a;
+}
+
+footer .social-links {
+  margin: 10px 0;
+}
+
+footer .social-links a {
+  color: #00ff00;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.6em;
+  transition: color 0.2s ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #33ff33;
+}
+
+footer .footer-note {
+  font-size: 0.85em;
+  color: #0f0;
+}
+
+footer a {
+  color: #0f0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #33ff33;
 }
