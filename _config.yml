@@ -7,3 +7,6 @@ plugins:
 - jekyll-remote-theme
 github:
   is_project_page: false
+social_links:
+  github: "mrzaxaryan"
+  linkedin: "mrzaxaryan"
