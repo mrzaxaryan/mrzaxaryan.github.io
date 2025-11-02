@@ -7,20 +7,12 @@
   display: none;
 }
 
-/* Social links below description */
-.social-links {
-  margin: 15px 0;
-  text-align: center;
-}
-
 .social-links a {
-  color: #00ff00;
   text-decoration: none;
-  margin: 0 8px;
-  font-size: 1.6em;
+  font-size: 1.4em;
   transition: color 0.2s ease-in-out;
 }
 
-.social-links a:hover {
+a:hover {
   color: #33ff33;
 }
