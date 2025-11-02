@@ -20,6 +20,15 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
+        <div class="social-links">
+          <a href="https://github.com/mrzaxaryan" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/mrzaxaryan" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+
         <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
@@ -35,22 +44,5 @@
         {{ content }}
       </section>
     </div>
-    
-    <footer>
-      <div class="container">
-        <p>© 2025 {{ site.title | default: site.github.repository_name }}</p>
-        <div class="social-links">
-          <a href="https://github.com/mrzaxaryan" title="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://linkedin.com/in/mrzaxaryan" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-        <p class="footer-note">
-          Built with ❤️ using <a href="https://pages.github.com/themes/hacker/">Hacker</a> theme
-        </p>
-      </div>
-    </footer>
   </body>
 </html>
