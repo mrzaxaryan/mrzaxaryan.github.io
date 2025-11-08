@@ -4,3 +4,6 @@
 [submodule "content/PIS"]
 	path = content/PIS
 	url = https://github.com/mrzaxaryan/PIS.git
+[submodule "content/EC"]
+	path = content/EC
+	url = https://github.com/mrzaxaryan/EC.git
