@@ -12,7 +12,7 @@
 
 ---
 
-### [**[PIS][_Position-Independent Code: Relocate_] Position-Independent String**](https://mrzaxaryan.blog/content/PIS/)  
+### [**[PIS][Position-Independent Code: Relocate] Position-Independent String**](https://mrzaxaryan.blog/content/PIS/)  
 **Purpose:** Tools and techniques for handling strings in fully position-independent and relocatable code (PIC).  
 **Key Features:**
  
@@ -25,7 +25,7 @@
 
 ---
 
-### [**[c-shellcode][_Position-Independent Code: Shellcode_] Minimal Windows Shellcode Demo**](https://mrzaxaryan.blog/content/c-shellcode/)  
+### [**[c-shellcode][Position-Independent Code: Shellcode] Minimal Windows Shellcode Demo**](https://mrzaxaryan.blog/content/c-shellcode/)  
 **Purpose:** Minimal Windows shellcode implementation in C with manual API resolution.  
 **Key Features:**
  
@@ -39,7 +39,7 @@
 
 ---
 
-### [**[c-peb][_Position-Independent Code: Prologue_] Windows PEB parsing**](https://mrzaxaryan.blog/content/c-peb/)  
+### [**[c-peb][Position-Independent Code: Prologue] Windows PEB parsing**](https://mrzaxaryan.blog/content/c-peb/)  
 **Purpose:** Demonstrates direct access to the Windows PEB for module lookup and API resolution.  
 **Key Features:**
 
