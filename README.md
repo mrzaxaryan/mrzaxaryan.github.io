@@ -15,7 +15,8 @@
 ### [**[PIS][Position-Independent Code: Relocate] Position-Independent String**](https://mrzaxaryan.blog/content/PIS/)  
 **Purpose:** Tools and techniques for handling strings in fully position-independent and relocatable code (PIC).  
 **Key Features:**
- 
+
+ - No imports, no standard library, position-independent 
  - Embed and retrieve strings without fixed addresses  
  - Useful for shellcode, PIC, loaders  
 
@@ -29,9 +30,9 @@
 **Purpose:** Minimal Windows shellcode implementation in C with manual API resolution.  
 **Key Features:**
  
- - No CRT / no standard library  
- - Manual PEB walking and PE export parsing  
- - Works on x86 and x64  
+ - No imports, no standard library, position-independent
+ - Direct TEB/PEB access   
+ - Works on x86 and x64 
 
 **Technologies:** C, Windows internals  
 **Status:** Experimental  
@@ -44,8 +45,8 @@
 **Key Features:**
 
  - Direct TEB/PEB access  
- - Manual PE export table parsing  
- - No imports, no standard library, position-independent  
+ - PEB walking
+ - Works on x86 and x64 
 
 **Technologies:** C, Windows internals  
 **Status:** Experimental  
