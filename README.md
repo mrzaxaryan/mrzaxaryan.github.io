@@ -1,20 +1,25 @@
-- ### [**[NoRWX] Proof-of-Concept**](https://mrzaxaryan.blog/content/NoRWX/)  
-  - **Purpose:** Demonstrates running position-independent (PIC) x86-64 machine code to output "Hello World" in RW-only memory, without marking it executable.  
-  - **Key Features:**
-    - No executable memory required  
-    - Hardware breakpoints + VEH technique  
-    - Security-focused demonstration  
+### [**[NoRWX] Proof-of-Concept**](https://mrzaxaryan.blog/content/NoRWX/)  
+ **Purpose:** Demonstrates running position-independent (PIC) x86-64 machine code to output "Hello World" in RW-only memory, without marking it executable.  
+ **Key Features:**  
   
-  - **Technologies Used:** x86-64 assembly, C.  
-  - **Status:** Experimental, for research and educational use.  
-  - **Audience:** Security researchers, low-level programmers.  
+  - No executable memory required  
+  - Hardware breakpoints + VEH technique  
+  - Security-focused demonstration  
+  
+  **Technologies Used:** x86-64 assembly, C.  
+  **Status:** Experimental, for research and educational use.  
+  **Audience:** Security researchers, low-level programmers.  
+
+---
 
 - ### [**[PIS][_Position-Independent Code: Relocate_] Position-Independent String**](https://mrzaxaryan.blog/content/PIS/)  
-  **Purpose:** Provides utilities for handling strings in a position-independent way, useful for memory-safe and relocatable code.  
-  **Key Features:** String manipulation without fixed memory addresses.  
-  **Technologies Used:** C, custom algorithms.  
-  **Status:* In development.  
-  **Audience:* Systems programmers, low-level programmers, security researchers.  
+  - **Purpose:** Tools and techniques for handling strings in fully position-independent and relocatable code (PIC).  
+  - **Key Features:**
+    - Embed and retrieve strings without fixed addresses  
+    - Useful for shellcode, PIC, loaders  
+  - **Technologies:** C, custom algorithms  
+  - **Status:** In development  
+  - **Audience:** Systems programmers, low-level developers, security researchers 
 
 - ### [**[c-shellcode][_Position-Independent Code: Shellcode_] Minimal Windows Shellcode Demo**](https://mrzaxaryan.blog/content/c-shellcode/)  
   **Purpose:** Demonstrates manual Windows API resolution and shellcode techniques in C.  
