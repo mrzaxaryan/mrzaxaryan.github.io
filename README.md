@@ -5,21 +5,21 @@
   *Status:* Experimental, for research and educational use.  
   *Audience:* Security researchers, low-level programmers.  
 
-- [**[PIS] _[Position-Independent Code: Relocate]_ Position-Independent String**](https://mrzaxaryan.blog/content/PIS/)  
+- [**[PIS][Position-Independent Code: Relocate] Position-Independent String**](https://mrzaxaryan.blog/content/PIS/)  
   *Purpose:* Provides utilities for handling strings in a position-independent way, useful for memory-safe and relocatable code.  
   *Key Features:* String manipulation without fixed memory addresses.  
   *Technologies Used:* C, custom algorithms.  
   *Status:* In development.  
   *Audience:* Systems programmers, low-level programmers, security researchers.  
 
-- [**[c-shellcode] _[Position-Independent Code: Shellcode]_ Minimal Windows Shellcode Demo**](https://mrzaxaryan.blog/content/c-shellcode/)  
+- [**[c-shellcode][Position-Independent Code: Shellcode] Minimal Windows Shellcode Demo**](https://mrzaxaryan.blog/content/c-shellcode/)  
   *Purpose:* Demonstrates manual Windows API resolution and shellcode techniques in C.  
   *Key Features:* No standard library, manual PE parsing, works on x86/x64.  
   *Technologies Used:* C, Windows internals.  
   *Status:* Experimental.  
   *Audience:* Systems programmers, low-level programmers, security researchers.  
 
-- [**[c-peb] **[Position-Independent Code: Prologue]** Windows PEB parsing**](https://mrzaxaryan.blog/content/c-peb/)  
+- [**[c-peb][Position-Independent Code: Prologue] Windows PEB parsing**](https://mrzaxaryan.blog/content/c-peb/)  
   *Purpose:* Demonstrates accessing and parsing the Windows Process Environment Block (PEB) manually for API resolution in position-independent code.  
   *Key Features:* No standard library, direct PEB access, manual PE parsing, compatible with x86/x64.  
   *Technologies Used:* C, Windows internals.  
