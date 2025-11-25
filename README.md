@@ -22,18 +22,6 @@
   - Includes runtime relocation logic and pattern scanning for x86/x64 shellcode.
   - Example: Provides code for scanning function prologues and relocating data pointers.
 
-- **[EC] Armenian Encoding Converter**  
-  *Purpose:* Converts Armenian text between different character encodings.  
-  *Key Features:* Supports multiple Armenian encodings, batch conversion.  
-  *Technologies Used:* C#, .NET 9.  
-  *Status:* Beta.  
-  *Audience:* Linguists, developers working with Armenian text.  
-  [See details](content/EC/)
-
-  - Core library for text, Word, and Excel file conversion using a mapping file.
-  - CLI for batch/single-file conversion; GUI in progress.
-  - Requires Windows and Microsoft Office for document conversion.
-
 - **[c-shellcode] Minimal Windows Shellcode Demo**  
   *Purpose:* Demonstrates manual Windows API resolution and shellcode techniques in C.  
   *Key Features:* No standard library, manual PE parsing, works on x86/x64.  
@@ -45,3 +33,15 @@
   - Locates PEB, enumerates modules, parses PE headers, and resolves exported functions manually.
   - Prints "Hello world!" using only resolved addresses, no standard library calls.
   - Includes build scripts and custom type definitions for Windows internals.
+
+- **[EC] Armenian Encoding Converter**  
+  *Purpose:* Converts Armenian text between different character encodings.  
+  *Key Features:* Supports multiple Armenian encodings, batch conversion.  
+  *Technologies Used:* C#, .NET 9.  
+  *Status:* Beta.  
+  *Audience:* Linguists, developers working with Armenian text.  
+  [See details](content/EC/)
+
+  - Core library for text, Word, and Excel file conversion using a mapping file.
+  - CLI for batch/single-file conversion; GUI in progress.
+  - Requires Windows and Microsoft Office for document conversion.
