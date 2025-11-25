@@ -10,3 +10,6 @@
 [submodule "content/c-shellcode"]
 	path = content/c-shellcode
 	url = https://github.com/mrzaxaryan/c-shellcode.git
+[submodule "content/c-peb"]
+	path = content/c-peb
+	url = https://github.com/mrzaxaryan/c-peb.git

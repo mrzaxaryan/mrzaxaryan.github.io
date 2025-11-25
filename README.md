@@ -6,22 +6,30 @@
   *Audience:* Security researchers, low-level programmers.  
   [See details](content/NoRWX/)
 
-- **[PIS] Position-Independent String**  
+- **[PIS] _[Position-Independent Code: Relocate]_ Position-Independent String**  
   *Purpose:* Provides utilities for handling strings in a position-independent way, useful for memory-safe and relocatable code.  
   *Key Features:* String manipulation without fixed memory addresses.  
   *Technologies Used:* C, custom algorithms.  
   *Status:* In development.  
-  *Audience:* Systems programmers.  
+  *Audience:* Systems programmers, low-level programmers, security researchers.  
   [See details](content/PIS/)
 
-- **[c-shellcode] Minimal Windows Shellcode Demo**  
+- **[c-shellcode] _[Position-Independent Code: Shellcode]_ Minimal Windows Shellcode Demo**  
   *Purpose:* Demonstrates manual Windows API resolution and shellcode techniques in C.  
   *Key Features:* No standard library, manual PE parsing, works on x86/x64.  
   *Technologies Used:* C, Windows internals.  
   *Status:* Experimental.  
-  *Audience:* Low-level programmers, security researchers.  
+  *Audience:* Systems programmers, low-level programmers, security researchers.  
   [See details](content/c-shellcode/)
 
+- **[c-peb] _[Position-Independent Code: Prologue]_ Windows PEB parsing**  
+  *Purpose:* Demonstrates accessing and parsing the Windows Process Environment Block (PEB) manually for API resolution in position-independent code.  
+  *Key Features:* No standard library, direct PEB access, manual PE parsing, compatible with x86/x64.  
+  *Technologies Used:* C, Windows internals.  
+  *Status:* Experimental.  
+  *Audience:* Systems programmers, low-level programmers, security researchers.  
+  [See details](content/c-peb/)
+	
 - **[EC] Armenian Encoding Converter**  
   *Purpose:* Converts Armenian text between different character encodings.  
   *Key Features:* Supports multiple Armenian encodings, batch conversion.  
