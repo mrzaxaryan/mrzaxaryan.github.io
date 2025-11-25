@@ -7,3 +7,6 @@
 [submodule "content/EC"]
 	path = content/EC
 	url = https://github.com/mrzaxaryan/EC.git
+[submodule "content/c-shellcode"]
+	path = content/c-shellcode
+	url = https://github.com/mrzaxaryan/c-shellcode.git
