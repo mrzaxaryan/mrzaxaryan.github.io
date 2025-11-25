@@ -4,7 +4,7 @@
   *Technologies Used:* x86-64 assembly, C.  
   *Status:* Experimental, for research and educational use.  
   *Audience:* Security researchers, low-level programmers.  
-  [See details](content/NoRWX/)
+  [See details](https://mrzaxaryan.blog/content/NoRWX/)
 
 - **[PIS] _[Position-Independent Code: Relocate]_ Position-Independent String**  
   *Purpose:* Provides utilities for handling strings in a position-independent way, useful for memory-safe and relocatable code.  
@@ -12,7 +12,7 @@
   *Technologies Used:* C, custom algorithms.  
   *Status:* In development.  
   *Audience:* Systems programmers, low-level programmers, security researchers.  
-  [See details](content/PIS/)
+  [See details](https://mrzaxaryan.blog/content/PIS/)
 
 - **[c-shellcode] _[Position-Independent Code: Shellcode]_ Minimal Windows Shellcode Demo**  
   *Purpose:* Demonstrates manual Windows API resolution and shellcode techniques in C.  
@@ -20,7 +20,7 @@
   *Technologies Used:* C, Windows internals.  
   *Status:* Experimental.  
   *Audience:* Systems programmers, low-level programmers, security researchers.  
-  [See details](content/c-shellcode/)
+  [See details](https://mrzaxaryan.blog/content/c-shellcode/)
 
 - **[c-peb] _[Position-Independent Code: Prologue]_ Windows PEB parsing**  
   *Purpose:* Demonstrates accessing and parsing the Windows Process Environment Block (PEB) manually for API resolution in position-independent code.  
@@ -28,7 +28,7 @@
   *Technologies Used:* C, Windows internals.  
   *Status:* Experimental.  
   *Audience:* Systems programmers, low-level programmers, security researchers.  
-  [See details](content/c-peb/)
+  [See details](https://mrzaxaryan.blog/content/c-peb/)
 	
 - **[EC] Armenian Encoding Converter**  
   *Purpose:* Converts Armenian text between different character encodings.  
@@ -36,4 +36,4 @@
   *Technologies Used:* C#, .NET 9.  
   *Status:* Beta.  
   *Audience:* Linguists, developers working with Armenian text.  
-  [See details](content/EC/)
+  [See details](https://mrzaxaryan.blog/content/EC/)
