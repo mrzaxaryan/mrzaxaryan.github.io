@@ -36,4 +36,4 @@
   *Technologies Used:* C#, .NET 9.  
   *Status:* Beta.  
   *Audience:* Linguists, developers working with Armenian text.  
-  [See details](/Content/EC/)
+  [See details](/content/EC/)
