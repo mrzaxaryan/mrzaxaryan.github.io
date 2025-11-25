@@ -1,9 +1,13 @@
 - ### [**[NoRWX] Proof-of-Concept**](https://mrzaxaryan.blog/content/NoRWX/)  
-  **Purpose:** Demonstrates running position-independent (PIC) x86-64 machine code to output "Hello World" in RW-only memory, without marking it executable.  
-  **Key Features:** No executable memory required, security-focused demonstration.  
-  **Technologies Used:** x86-64 assembly, C.  
-  **Status:** Experimental, for research and educational use.  
-  **Audience:** Security researchers, low-level programmers.  
+  - **Purpose:** Demonstrates running position-independent (PIC) x86-64 machine code to output "Hello World" in RW-only memory, without marking it executable.  
+  - **Key Features:**
+    - No executable memory required  
+    - Hardware breakpoints + VEH technique  
+    - Security-focused demonstration  
+  
+  - **Technologies Used:** x86-64 assembly, C.  
+  - **Status:** Experimental, for research and educational use.  
+  - **Audience:** Security researchers, low-level programmers.  
 
 - ### [**[PIS][_Position-Independent Code: Relocate_] Position-Independent String**](https://mrzaxaryan.blog/content/PIS/)  
   **Purpose:** Provides utilities for handling strings in a position-independent way, useful for memory-safe and relocatable code.  
