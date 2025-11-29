@@ -1,15 +1,9 @@
-[submodule "content/NoRWX"]
-	path = content/NoRWX
-	url = https://github.com/mrzaxaryan/NoRWX.git
-[submodule "content/PIS"]
-	path = content/PIS
-	url = https://github.com/mrzaxaryan/PIS.git
 [submodule "content/EC"]
 	path = content/EC
 	url = https://github.com/mrzaxaryan/EC.git
-[submodule "content/c-shellcode"]
-	path = content/c-shellcode
-	url = https://github.com/mrzaxaryan/c-shellcode.git
-[submodule "content/c-peb"]
-	path = content/c-peb
-	url = https://github.com/mrzaxaryan/c-peb.git
+[submodule "content/c-pic"]
+	path = content/c-pic
+	url = https://github.com/mrzaxaryan/c-pic.git
+[submodule "content/NoRWX"]
+	path = content/NoRWX
+	url = https://github.com/mrzaxaryan/NoRWX.git
