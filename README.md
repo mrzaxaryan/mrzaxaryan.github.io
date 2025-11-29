@@ -12,11 +12,11 @@
 
 ---
 
-### [**[c-pic] Minimal Windows Shellcode Demo**](https://mrzaxaryan.blog/content/c-pic/)  
+### [**[c-pic] Fully position-independent code implementation in C**](https://mrzaxaryan.blog/content/c-pic/) 
 **Purpose:** Fully position-independent code implementation in C with manual API resolution.  
 **Key Features:**
  
- - No imports, no standard library, position-independent
+ - No imports, no standard library, position-independent code, no fixed addresses
  - Embed and retrieve strings without fixed addresses  
  - Direct TEB/PEB access   
  - Works on x86 and x64 
