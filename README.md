@@ -12,45 +12,19 @@
 
 ---
 
-### [**[PIS][Position-Independent Code: Relocate] Position-Independent String**](https://mrzaxaryan.blog/content/PIS/)  
-**Purpose:** Tools and techniques for handling strings in fully position-independent and relocatable code (PIC).  
-**Key Features:**
-
- - No imports, no standard library, position-independent 
- - Embed and retrieve strings without fixed addresses  
- - Useful for shellcode, PIC, loaders  
-
-**Technologies:** C, custom algorithms  
-**Status:** In development  
-**Audience:** Systems programmers, low-level developers, security researchers 
-
----
-
-### [**[c-shellcode][Position-Independent Code: Shellcode] Minimal Windows Shellcode Demo**](https://mrzaxaryan.blog/content/c-shellcode/)  
-**Purpose:** Minimal Windows shellcode implementation in C with manual API resolution.  
+### [**[c-pic] Minimal Windows Shellcode Demo**](https://mrzaxaryan.blog/content/c-pic/)  
+**Purpose:** Fully position-independent code implementation in C with manual API resolution.  
 **Key Features:**
  
  - No imports, no standard library, position-independent
+ - Embed and retrieve strings without fixed addresses  
  - Direct TEB/PEB access   
  - Works on x86 and x64 
-
-**Technologies:** C, Windows internals  
-**Status:** Experimental  
-**Audience:** Systems programmers, reverse-engineers, security researchers
-
----
-
-### [**[c-peb][Position-Independent Code: Prologue] Windows PEB parsing**](https://mrzaxaryan.blog/content/c-peb/)  
-**Purpose:** Demonstrates direct access to the Windows PEB for module lookup and API resolution.  
-**Key Features:**
-
- - Direct TEB/PEB access  
  - PEB walking
- - Works on x86 and x64 
 
-**Technologies:** C, Windows internals  
+**Technologies:** C, Windows internals, Linux systemcalls  
 **Status:** Experimental  
-**Audience:** Systems programmers, low-level programmers, security researchers
+**Audience:** Systems programmers, low-level developers, security researchers
 
 ---
 
